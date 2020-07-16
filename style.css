@@ -24,6 +24,9 @@ nav a {
     margin: 10px;
 }
 
+form {
+    width: 40%;
+}
 
 #search {
     display: flex;
@@ -35,11 +38,13 @@ nav a {
     flex-direction: column;
 }
 
-.sla {
+.container {
     margin-bottom: 8em;
+    display: flex;
+    justify-content: center;
 }
 
-.sla button {
+.container button {
     margin: 10px;
 }
 
@@ -69,8 +74,4 @@ button:hover {
     cursor: pointer;
     color: #252525;
     box-shadow: lightslategray 0px 0px 1px 1px;
-}
-
-.center {
-    justify-content: center;
 }
