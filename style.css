@@ -17,7 +17,8 @@ nav {
     padding: 1%;
     height: 9%;
     letter-spacing: 0.6px;
-    display: flex:
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 nav a {
@@ -74,4 +75,8 @@ button:hover {
     cursor: pointer;
     color: #252525;
     box-shadow: lightslategray 0px 0px 1px 1px;
+}
+
+.advanced {
+
 }
