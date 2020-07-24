@@ -45,8 +45,8 @@ form {
     justify-content: center;
 }
 
-.container button {
-    margin: 10px;
+.relative {
+    position: relative;
 }
 
 .searchbar {
@@ -62,7 +62,30 @@ form {
     box-shadow: lightgray 0px 0px 2px 2px;
 }
 
-button {
+.lupa {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: inherit;
+    
+}
+
+.lupa button {
+    height: 32px;
+    width: 32px;
+    margin: 4px;
+    background: url("test.png");
+    border: none;
+    opacity: 50%;
+}
+
+.lupa button:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.container button {
+    margin: 10px;
     width: 200px;
     height: 30px;
     border: none;
@@ -70,7 +93,7 @@ button {
     color: gray;
 }
 
-button:hover {
+.container button:hover {
     border: 1px solid lightslategrey;
     cursor: pointer;
     color: #252525;
