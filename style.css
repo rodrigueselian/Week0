@@ -29,6 +29,24 @@ form {
     width: 40%;
 }
 
+@media (min-width: 726px) and (max-width: 1024px) {
+    form{
+        width: 50%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 726px) {
+    form{
+        width: 70%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+    form{
+        width: 80%;
+    }
+}
+
 #search {
     display: flex;
     width: 100%;
@@ -98,8 +116,4 @@ form {
     cursor: pointer;
     color: #252525;
     box-shadow: lightslategray 0px 0px 1px 1px;
-}
-
-.advanced {
-
 }
